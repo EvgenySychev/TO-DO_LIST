@@ -1,4 +1,6 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from 'react';
+import {Button, TextField} from "@mui/material";
+
 
 export type FullInputPropsType = {
 
@@ -8,14 +10,14 @@ export type FullInputPropsType = {
 export const FullInput = (props:FullInputPropsType) => {
 
     let [title, setTitle] = useState("")
-    let [error, setError] = useState<string | null>(null)
+    let [error, setError] = useState<boolean>(false)
 
     const addTask = () => {
         if (title.trim() !== "") {
             props.callback(title.trim());
             setTitle("");
         } else {
-            setError("Title is required");
+            setError(true);
         }
     }
 
@@ -24,7 +26,7 @@ export const FullInput = (props:FullInputPropsType) => {
     }
 
     const onKeyPressHandler = (e: KeyboardEvent<HTMLInputElement>) => {
-        setError(null);
+        setError(false);
         if (e.charCode === 13) {
             addTask();
         }
@@ -32,13 +34,21 @@ export const FullInput = (props:FullInputPropsType) => {
 
     return (
         <div>
-            <input value={title}
-                   onChange={onChangeHandler}
-                   onKeyPress={onKeyPressHandler}
-                   className={error ? "error" : ""}
+
+            <TextField id="outlined-basic"
+                       label={error? "Title is required": `Text`}
+                       variant="outlined"
+                       value={title}
+                       onChange={onChangeHandler}
+                       onKeyPress={onKeyPressHandler}
+                       size={"small"}
+                       error={error}
             />
-            <button onClick={addTask}>+</button>
-            {error && <div className="error-message">{error}</div>}
+
+            <Button variant="contained"  onClick={addTask} color={'primary'} style={{maxWidth: '30px', maxHeight: '30px', minWidth: '30px', minHeight: '30px', backgroundColor: "darkgreen"}}
+
+            >+</Button>
+
         </div>
     );
 }
