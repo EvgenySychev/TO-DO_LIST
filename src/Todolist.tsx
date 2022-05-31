@@ -11,7 +11,7 @@ export type TaskType = {
     isDone: boolean
 }
 
-export type PropsType = {
+type PropsType = {
     id: string
     title: string
     tasks: Array<TaskType>
@@ -76,7 +76,7 @@ export function Todolist(props: PropsType) {
                 })
             }
         </div>
-        <div style={{ paddingTop: "10px"}}>
+        <div>
             <Button variant={props.filter === 'all' ? 'outlined' : 'text'}
                     onClick={onAllClickHandler}
                     color={'default'}
