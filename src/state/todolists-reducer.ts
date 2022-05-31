@@ -15,7 +15,7 @@ export type ChangeTodolistTitleActionType = {
     id: string
     title: string
 }
-export type ChangeTodolistFilterActionType = {
+export type  ChangeTodolistFilterActionType = {
     type: 'CHANGE-TODOLIST-FILTER',
     id: string
     filter: FilterValuesType
