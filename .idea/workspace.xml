@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17e7c906-dac5-4546-9373-15fdb9545485" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/app-reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ErrorSnackbar/ErrorSnackbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/error-utils.ts" afterDir="false" />
+    <list default="true" id="0aa7c019-2fd3-4167-a940-c83327167cfa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/features/login/auth-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditableSpan.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddItemForm/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddItemForm/AddItemForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorSnackbar/ErrorSnackbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorSnackbar/ErrorSnackbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Task/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Task/Task.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/Todolist/Todolist.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/tasks-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/error-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/error-utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +32,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2BcWuNZ30LYjbBxQTjPNz1Ex5dV" />
+  <component name="ProjectId" id="2BvrlJawuk3ySrTtdBfAqY61JFM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,12 +52,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="17e7c906-dac5-4546-9373-15fdb9545485" name="Changes" comment="" />
-      <created>1657206075692</created>
+      <changelist id="0aa7c019-2fd3-4167-a940-c83327167cfa" name="Changes" comment="" />
+      <created>1657797549050</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657206075692</updated>
-      <workItem from="1657206080281" duration="15574000" />
+      <updated>1657797549050</updated>
+      <workItem from="1657797551955" duration="1363000" />
+      <workItem from="1657803391025" duration="15655000" />
+      <workItem from="1657862916931" duration="630000" />
+      <workItem from="1657899506506" duration="1184000" />
+      <workItem from="1657953999724" duration="12000" />
+      <workItem from="1657958126993" duration="4363000" />
     </task>
     <servers />
   </component>
