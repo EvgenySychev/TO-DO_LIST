@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0aa7c019-2fd3-4167-a940-c83327167cfa" name="Changes" comment="lesson 16">
+    <list default="true" id="0aa7c019-2fd3-4167-a940-c83327167cfa" name="Changes" comment="refactor ErrorSnackbar.tsx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ErrorSnackbar/ErrorSnackbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorSnackbar/ErrorSnackbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/login/Login.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,45 @@
     <property name="ts.external.directory.path" value="I:\it-kamasutra\TODOLIST-TS\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager" selected="npm.deploy">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +103,10 @@
       <workItem from="1659268913141" duration="3002000" />
       <workItem from="1659375384233" duration="2028000" />
       <workItem from="1662047699114" duration="159000" />
-      <workItem from="1662277022797" duration="408000" />
+      <workItem from="1662277022797" duration="3951000" />
+      <workItem from="1662288849681" duration="76000" />
+      <workItem from="1663263284157" duration="2185000" />
+      <workItem from="1664609372607" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 16">
       <created>1657962863467</created>
@@ -72,7 +115,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657962863467</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add homepage gh-pages">
+      <created>1662277700138</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662277700138</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new API-KEY">
+      <created>1662279433769</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662279433769</updated>
+    </task>
+    <task id="LOCAL-00004" summary="refactor ErrorSnackbar.tsx">
+      <created>1663266712167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663266712167</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +155,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 16" />
+    <MESSAGE value="add homepage gh-pages" />
+    <MESSAGE value="new API-KEY" />
+    <MESSAGE value="refactor ErrorSnackbar.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor ErrorSnackbar.tsx" />
   </component>
 </project>
